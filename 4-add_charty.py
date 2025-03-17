@@ -1,7 +1,7 @@
 from openpyxl import load_workbook
 from openpyxl.chart import BarChart, Reference # para criar um gráfico de barras
 
-# 1- Lê pasta de trabalho e polanilha
+# 1- Lê pasta de trabalho e planilha
 wb = load_workbook('data/pivot_table.xlsx')
 sheet = wb['Relatório']
 
@@ -23,7 +23,7 @@ data = Reference(
     min_col=min_column + 1,
     max_col=max_column,
     min_row=min_row,
-    max_row=max_row  # ✅ Corrigido (sem espaço)
+    max_row=max_row  # Corrigido (sem espaço)
 )
 
 categories = Reference(
@@ -31,7 +31,7 @@ categories = Reference(
     min_col=min_column,
     max_col=min_column,
     min_row=min_row + 1,
-    max_row=max_row  # ✅ Corrigido (sem espaço)
+    max_row=max_row  # Corrigido (sem espaço)
 )
 
 barchart.add_data(data, titles_from_data=True) #pego as informações e passo para o gráfico
