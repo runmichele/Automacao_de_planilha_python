@@ -6,7 +6,6 @@ nome = 'Michele'
 #print(type(nome)) #type diz qual o tipo de dado de uma variável, estrutura...
 # print(type(data)) #ele vai mostrar que data é um dataframe
 
-# Como entender esse DataFrame?
 # 2-Selecionando colunas
 # print(data['Estado'])
 # print(data) #retorna TODOS os dados da planilha
@@ -14,7 +13,6 @@ nome = 'Michele'
 # 2-Selecionando colunas específicas do Dataframe
 df = data[['Fabricante', 'ValorVenda', 'Ano']]  # dentro de colchetes quero saber quantas colunas ter dentro do dataframe #vai obter apenas as tranformações que eu preciso
 print(df)
-#Isos agora é um dataframe
 
 # 3- Criando a tabela pivô
 pivot_table = df.pivot_table(
@@ -22,7 +20,6 @@ pivot_table = df.pivot_table(
     columns='Fabricante',
     values='ValorVenda',
     aggfunc='sum'
-    # esses são parametros
 )
 
 print(pivot_table)
