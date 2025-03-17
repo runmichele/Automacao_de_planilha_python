@@ -1,7 +1,7 @@
 import smtplib
 import ssl
 import mimetypes
-from email.message import EmailMessage #posso aproveitar essa estrutura para enviar e-mails?
+from email.message import EmailMessage 
 
 # 1- Dados do E-mail
 password = open('data/senha.txt', 'r').read() # Lendo um arquivo chamado "senha"
