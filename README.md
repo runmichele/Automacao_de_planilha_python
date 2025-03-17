@@ -64,24 +64,24 @@ SSL
 
 EmailMessage
 
-📂 Estrutura de Arquivos
+#  📂 Estrutura de Arquivos
 
 data/
-├── 1-import_data.py
-├── 2-pivot_table.py
-├── 3-sheet_ready.py
-├── 4-add_charty.py
-├── 5-formulas.py
-├── 6-email.py
-├── barchart.xlsx
-├── pivot_table.xlsx
-├── senha.txt
-├── VendaCarros.xlsx
-├── arquivo.xlsx
-└── test.xlsx
+- 1-import_data.py
+- 2-pivot_table.py
+- 3-sheet_ready.py
+- 4-add_charty.py
+- 5-formulas.py
+- 6-email.py
+- barchart.xlsx
+- pivot_table.xlsx
+- senha.txt
+- VendaCarros.xlsx
+- arquivo.xlsx
+- test.xlsx
 
 
-Como utilizar o projeto?
+# Como utilizar o projeto?
 
 Clone este repositório:
 
@@ -95,14 +95,12 @@ Execute cada arquivo Python na ordem indicada pelo número do arquivo.
 
 Configure suas credenciais de e-mail no arquivo senha.txt e no script de e-mail antes de executar.
 
-🎯 Resultado esperado
+#  🎯 Resultado esperado
 
-Você terá:
+* Dados tratados e analisados em tabelas dinâmicas.
 
-Dados tratados e analisados em tabelas dinâmicas.
+* Gráficos gerados automaticamente.
 
-Gráficos gerados automaticamente.
+* Planilha pronta com fórmulas aplicadas.
 
-Planilha pronta com fórmulas aplicadas.
-
-Envio automatizado por e-mail com o arquivo resultante.
+* Envio automatizado por e-mail com o arquivo resultante.
