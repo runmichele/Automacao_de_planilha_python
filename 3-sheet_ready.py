@@ -1,6 +1,6 @@
 from openpyxl import load_workbook #o que é load_workbook?
 
-# 1- Lê pasta de trabalho e polanilha
+# 1- Lê pasta de trabalho e planilha
 wb = load_workbook('data/pivot_table.xlsx') #carrego o workbook
 sheet = wb['Relatório'] #indico o dado e a planilha que quero usar
 
@@ -10,7 +10,7 @@ print(sheet['B3'].value)
 
 # 3- Iterando valores por meio de loop
 for i in range(2, 6):
-    ano = sheet['A%s'%i].value #porque entram esses caracteres de percent?
+    ano = sheet['A%s'%i].value 
     print(ano)
     
 for i in range(2,6):
