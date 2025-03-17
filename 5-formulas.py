@@ -1,5 +1,5 @@
 from openpyxl import load_workbook
-from openpyxl.utils import get_column_letter #como funciona esse cógigo?
+from openpyxl.utils import get_column_letter 
 
 # 1- Lê pasta de trabalho e polanilha
 wb = load_workbook('data/barchart.xlsx')
